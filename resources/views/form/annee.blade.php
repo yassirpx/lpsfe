@@ -24,6 +24,7 @@
 <div class="card-box pb-10">
     @if ($errors->any())
     <div class="alert alert-danger">
+        
         @foreach ($errors->all() as $error)
             <p>{{ $error }}</p>
         @endforeach
